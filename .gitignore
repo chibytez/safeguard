@@ -1,0 +1,17 @@
+node_modules
+results
+local.log
+log/usage.log
+npm_install_debug.log
+package-lock.json
+/screenshots
+/videos
+log/build_results.txt
+package-lock.json
+.env.staging
+.env.dev
+.env.prod
+tmpBstackPackages/package.json
+cypress/videos
+cypress/screenshots
+.bs-init.sh
