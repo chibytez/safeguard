@@ -2,7 +2,7 @@ import loginPage from "../../Pages/LoginPage"
 import dashboardPage from "../../Pages/DashboardPage"
 import TestConstants from "../fixtures/testData/testConstants.json"
 
-describe('Login', () => {
+describe('Login Page Test', () => {
   beforeEach("visit url", () => {
     loginPage.launchUrl('/')
   })

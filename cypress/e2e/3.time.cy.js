@@ -2,7 +2,7 @@ import loginPage from "../../Pages/LoginPage"
 import TestConstants from "../fixtures/testData/testConstants.json"
 import timeSheet from "../../Pages/TimeSheetPage"
 
-describe("Timesheet Page", () => {
+describe("Timesheet Page Test", () => {
     beforeEach(() => {
         loginPage.launchUrl('/')
         loginPage.inputUsername(TestConstants.validUsername)

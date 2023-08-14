@@ -2,7 +2,7 @@ import loginPage from "../../Pages/LoginPage"
 import dashboardPage from "../../Pages/DashboardPage"
 import TestConstants from "../fixtures/testData/testConstants.json"
 
-describe('dashboard', () => {
+describe('dashboard Page Test', () => {
     beforeEach(()=>{
         loginPage.launchUrl('/')
         loginPage.inputUsername(TestConstants.validUsername)
@@ -10,7 +10,7 @@ describe('dashboard', () => {
         loginPage.submitLogin()
     })
 
-    it('should refresh dashboard page', () => {
+    it('should view dashboard page', () => {
         cy.intercept('GET','*web/index.php/api/v2/dashboard/employees/time-at-work*', {fixture: 'timeAtWork.json'}).as('getWorkTime')
         cy.intercept('GET','*web/index.php/api/v2/dashboard/employees/action-summary', {fixture: 'actionSummary.json'}).as('getActionSummary')
         cy.intercept('GET', '*web/index.php/api/v2/dashboard/shortcuts').as('getShortcut')
