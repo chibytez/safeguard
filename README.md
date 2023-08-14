@@ -11,7 +11,7 @@
 
 ## Note
 If I had a enough time, I would have
-- written more test case
-- covered more test scenario
-- used function in places  where their where codes were repeated
+- written more test cases
+- covered more test scenarios
+- used function in places  where codes were repeated
 - Implemented CI/CD
