@@ -1,10 +1,13 @@
+import loginPage from "../../Pages/LoginPage"
+import dashboardPage from "../../Pages/DashboardPage"
+import TestConstants from "../fixtures/testData/testConstants.json"
 
 describe('dashboard', () => {
     beforeEach(()=>{
-        cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-        cy.get('[name="username"]').clear().type('Admin')
-        cy.get('[name="password"]').clear().type('admin123')
-        cy.get('[type="submit"]').click()
+        loginPage.launchUrl('/')
+        loginPage.inputUsername(TestConstants.validUsername)
+        loginPage.inputPassword(TestConstants.ValidPassword)
+        loginPage.submitLogin()
     })
 
     it('should refresh dashboard page', () => {
@@ -20,14 +23,14 @@ describe('dashboard', () => {
         cy.wait('@getWorkTime', { timeout: 10000}).then(interception =>{
             cy.wrap(interception.response.statusCode).should('eq', 200)
             cy.wrap(interception.response.body.data.length).should('eq', 7)
-            cy.wrap(interception.response.body.data[0].workDay.day).should('eq', 'Mon')
-            cy.wrap(interception.response.body.data[0].workDay.date).should('eq', '2023-08-07')
+            cy.wrap(interception.response.body.data[0].workDay.day).should('eq', TestConstants.Workday)
+            cy.wrap(interception.response.body.data[0].workDay.date).should('eq', TestConstants.Workdate)
         })
 
         cy.wait('@getActionSummary', { timeout: 10000}).then(interception =>{
             cy.wrap(interception.response.statusCode).should('eq', 200)
             cy.wrap(interception.response.body.data.length).should('eq', 4)
-            cy.wrap(interception.response.body.data[0].group).should('eq', 'Leave Requests To Approve')
+            cy.wrap(interception.response.body.data[0].group).should('eq', TestConstants.LeaveAction)
             cy.wrap(interception.response.body.data[0].pendingActionCount).should('eq', 9)
         })
 
@@ -47,14 +50,14 @@ describe('dashboard', () => {
         cy.wait('@getSubunit', { timeout: 10000}).then(interception =>{
             cy.wrap(interception.response.statusCode).should('eq', 200)
             cy.wrap(interception.response.body.data.length).should('eq', 6)
-            cy.wrap(interception.response.body.data[0].subunit.name).should('eq', 'Engineering')
+            cy.wrap(interception.response.body.data[0].subunit.name).should('eq', TestConstants.Subunit)
             cy.wrap(interception.response.body.data[0].count).should('eq', 11)
         })
 
         cy.wait('@getLocations', { timeout: 10000}).then(interception =>{
             cy.wrap(interception.response.statusCode).should('eq', 200)
             cy.wrap(interception.response.body.data.length).should('eq', 4)
-            cy.wrap(interception.response.body.data[0].location.name).should('eq', 'New York Sales Office')
+            cy.wrap(interception.response.body.data[0].location.name).should('eq', TestConstants.Location)
             cy.wrap(interception.response.body.data[0].count).should('eq', 11)
         })
     })

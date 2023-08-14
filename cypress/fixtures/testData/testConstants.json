@@ -1,0 +1,24 @@
+{
+    "validUsername": "Admin",
+    "ValidPassword": "admin123",
+    "InvalidUsername": "Test",
+    "InvalidPassword": "adm123",
+    "RequiredError": "Required",
+    "InvalidCredentialError": "Invalid credentials",
+
+    "DashboardHeader": "Dashboard",
+    "DashboardTitle": "OrangeHRM",
+    "Workday": "Mon",
+    "Workdate": "2023-08-07",
+    "LeaveAction": "Leave Requests To Approve",
+    "Subunit": "Engineering",
+    "Location": "New York Sales Office",
+
+    "ListLastName": "Collings",
+    "ListFirstName": "Paul",
+    "ListId": "SUBMITTED",
+    "PendingAction": "Timesheets Pending Action",
+    "TimeSheetTitle": "Timesheet",
+    "SummaryLastName": "Adalwin",
+    "SummaryFirstName": "Odis"
+}

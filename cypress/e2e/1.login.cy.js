@@ -1,47 +1,49 @@
+import loginPage from "../../Pages/LoginPage"
+import dashboardPage from "../../Pages/DashboardPage"
+import TestConstants from "../fixtures/testData/testConstants.json"
 
 describe('Login', () => {
-  beforeEach('passes', () => {
-    cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+  beforeEach("visit url", () => {
+    loginPage.launchUrl('/')
   })
 
   it('should not login a user without a password', () => {
-      cy.get('[name="username"]').clear().type('Admin')
-      cy.get('[type="submit"]').click()
-      cy.get('.oxd-text.oxd-text--span.oxd-input-field-error-message.oxd-input-group__message').should('be.visible').and('have.text', 'Required')
-      cy.get('.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module').should('not.exist')
+      loginPage.inputUsername(TestConstants.validUsername)
+      loginPage.submitLogin()
+      loginPage.requiredError().should('be.visible').and('have.text', TestConstants.RequiredError)
+      dashboardPage.dashboardHeader().should('not.exist')
   })
 
   it('should not login with no username', () => {
-    cy.get('[name="password"]').clear().type('admin123')
-    cy.get('[type="submit"]').click()
-      cy.get('.oxd-text.oxd-text--span.oxd-input-field-error-message.oxd-input-group__message').should('be.visible').and('have.text', 'Required')
-      cy.get('.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module').should('not.exist')
+      loginPage.inputPassword(TestConstants.ValidPassword)
+      loginPage.submitLogin()
+      loginPage.requiredError().should('be.visible').and('have.text', TestConstants.RequiredError)
+      dashboardPage.dashboardHeader().should('not.exist')
   })
 
   it('should not login with invalid username', () => {
-    cy.get('[name="username"]').clear().type('Test')
-    cy.get('[name="password"]').clear().type('admin123')
-    cy.get('[type="submit"]').click()
-    cy.get('.oxd-text.oxd-text--p.oxd-alert-content-text').should('be.visible').and('have.text', 'Invalid credentials')
-    cy.get('.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module').should('not.exist')
+    loginPage.inputUsername(TestConstants.InvalidUsername)
+    loginPage.inputPassword(TestConstants.ValidPassword)
+    loginPage.submitLogin()
+    loginPage.credentialError().should('be.visible').and('have.text', TestConstants.InvalidCredentialError)
+    dashboardPage.dashboardHeader().should('not.exist')
   })
 
   it('should not login with invalid password', () => {
-    cy.get('[name="username"]').clear().type('Admin')
-    cy.get('[name="password"]').clear().type('adm123')
-    cy.get('[type="submit"]').click()
-    cy.get('.oxd-text.oxd-text--p.oxd-alert-content-text').should('be.visible').and('have.text', 'Invalid credentials')
-    cy.get('.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module').should('not.exist')
+    loginPage.inputUsername(TestConstants.validUsername)
+    loginPage.inputPassword(TestConstants.InvalidCredentialError)
+    loginPage.submitLogin()
+    loginPage.credentialError().should('be.visible').and('have.text', TestConstants.InvalidCredentialError)
+    dashboardPage.dashboardHeader().should('not.exist')
   })
 
   it('should login with a valid username and password', () => {
-    cy.get('[name="username"]').clear().type('Admin')
-    cy.get('[name="password"]').clear().type('admin123')
-    cy.get('[type="submit"]').click()
-    cy.get('.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module').should('be.visible').and('have.text', 'Dashboard')
-    //cy.get('.oxd-userdropdown-name').should('be.visible').and('have.text', 'Paul Collings')
-    cy.url().should('include', '/dashboard/index')
-    cy.title().should('contain', 'OrangeHRM')
+    loginPage.inputUsername(TestConstants.validUsername)
+    loginPage.inputPassword(TestConstants.ValidPassword)
+    loginPage.submitLogin()
+    dashboardPage.dashboardHeader().should('be.visible').and('have.text', TestConstants.DashboardHeader)
+    dashboardPage.dashboardUrl().should('include', '/dashboard/index')
+    dashboardPage.dashboardTitle().should('contain', TestConstants.DashboardTitle)
   })
 
 
