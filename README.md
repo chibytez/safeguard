@@ -13,5 +13,5 @@
 If I had a enough time, I would have
 - written more test case
 - covered more test scenario
-- user function where I noticed I repeated lots of code
+- used function in places  where their where codes were repeated
 - Implemented CI/CD
