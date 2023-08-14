@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "group": "Leave Requests To Approve",
+            "pendingActionCount": 9
+        },
+        {
+            "id": 2,
+            "group": "Timesheets To Approve",
+            "pendingActionCount": 9
+        },
+        {
+            "id": 4,
+            "group": "Pending Self Reviews",
+            "pendingActionCount": 1
+        },
+        {
+            "id": 5,
+            "group": "Candidates To Interview",
+            "pendingActionCount": 1
+        }
+    ],
+    "meta": [],
+    "rels": []
+}

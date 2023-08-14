@@ -1,0 +1,200 @@
+{
+    "data": [
+        {
+            "id": 260,
+            "employee": {
+                "empNumber": 7,
+                "lastName": "Collings",
+                "firstName": "Paul",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2023-01-16",
+            "endDate": "2023-01-22"
+        },
+        {
+            "id": 259,
+            "employee": {
+                "empNumber": 7,
+                "lastName": "Collings",
+                "firstName": "Paul",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-08-15",
+            "endDate": "2022-08-21"
+        },
+        {
+            "id": 258,
+            "employee": {
+                "empNumber": 5,
+                "lastName": "Anderson",
+                "firstName": "Linda",
+                "middleName": "Jane",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-25",
+            "endDate": "2022-07-31"
+        },
+        {
+            "id": 65,
+            "employee": {
+                "empNumber": 29,
+                "lastName": "Carter",
+                "firstName": "Charlie",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-25",
+            "endDate": "2022-07-31"
+        },
+        {
+            "id": 61,
+            "employee": {
+                "empNumber": 10,
+                "lastName": "Haq",
+                "firstName": "Aaliyah",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-25",
+            "endDate": "2022-07-31"
+        },
+        {
+            "id": 255,
+            "employee": {
+                "empNumber": 18,
+                "lastName": "Nolan",
+                "firstName": "Anthony",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-25",
+            "endDate": "2022-07-31"
+        },
+        {
+            "id": 66,
+            "employee": {
+                "empNumber": 29,
+                "lastName": "Carter",
+                "firstName": "Charlie",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-18",
+            "endDate": "2022-07-24"
+        },
+        {
+            "id": 62,
+            "employee": {
+                "empNumber": 10,
+                "lastName": "Haq",
+                "firstName": "Aaliyah",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-18",
+            "endDate": "2022-07-24"
+        },
+        {
+            "id": 256,
+            "employee": {
+                "empNumber": 18,
+                "lastName": "Nolan",
+                "firstName": "Anthony",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-18",
+            "endDate": "2022-07-24"
+        },
+        {
+            "id": 67,
+            "employee": {
+                "empNumber": 29,
+                "lastName": "Carter",
+                "firstName": "Charlie",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-11",
+            "endDate": "2022-07-17"
+        },
+        {
+            "id": 63,
+            "employee": {
+                "empNumber": 10,
+                "lastName": "Haq",
+                "firstName": "Aaliyah",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2022-07-11",
+            "endDate": "2022-07-17"
+        },
+        {
+            "id": 40,
+            "employee": {
+                "empNumber": 7,
+                "lastName": "Collings",
+                "firstName": "Paul",
+                "middleName": "",
+                "terminationId": null
+            },
+            "status": {
+                "id": "SUBMITTED",
+                "name": "Submitted"
+            },
+            "startDate": "2020-09-14",
+            "endDate": "2020-09-20"
+        }
+    ],
+    "meta": {
+        "total": 12
+    },
+    "rels": []
+}

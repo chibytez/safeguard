@@ -1,0 +1,606 @@
+{
+    "data": [
+        {
+            "empNumber": 2,
+            "lastName": "Adalwin",
+            "firstName": "Odis",
+            "middleName": "",
+            "employeeId": "0002",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 5,
+            "lastName": "Anderson",
+            "firstName": "Linda",
+            "middleName": "Jane",
+            "employeeId": "0016",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 3,
+            "lastName": "Anderson",
+            "firstName": "Peter",
+            "middleName": "Mac",
+            "employeeId": "0007",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 28,
+            "lastName": "Andrews",
+            "firstName": "Lisa",
+            "middleName": "",
+            "employeeId": "0208",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 46,
+            "lastName": "B",
+            "firstName": "Ravi",
+            "middleName": "M",
+            "employeeId": "3322",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 27,
+            "lastName": "Bonaparte",
+            "firstName": "Cecil",
+            "middleName": "",
+            "employeeId": "0204",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 29,
+            "lastName": "Carter",
+            "firstName": "Charlie",
+            "middleName": "",
+            "employeeId": "0212",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 6,
+            "lastName": "Chase",
+            "firstName": "Dominic",
+            "middleName": "",
+            "employeeId": "0020",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 30,
+            "lastName": "Chuki",
+            "firstName": "Chenzira",
+            "middleName": "",
+            "employeeId": "0217",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 7,
+            "lastName": "Collings",
+            "firstName": "Paul",
+            "middleName": "",
+            "employeeId": "0024",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 31,
+            "lastName": "Duval",
+            "firstName": "Alice",
+            "middleName": "",
+            "employeeId": "0221",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 32,
+            "lastName": "Ebo",
+            "firstName": "Ehioze",
+            "middleName": "",
+            "employeeId": "0227",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 33,
+            "lastName": "Elliot",
+            "firstName": "Nathan",
+            "middleName": "",
+            "employeeId": "0231",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 34,
+            "lastName": "Ganesh",
+            "firstName": "Goutam",
+            "middleName": "",
+            "employeeId": "0235",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 48,
+            "lastName": "garg",
+            "firstName": "swati",
+            "middleName": "garg",
+            "employeeId": "998871",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 8,
+            "lastName": "Grace",
+            "firstName": "Fiona",
+            "middleName": "",
+            "employeeId": "0029",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 9,
+            "lastName": "Hamilton",
+            "firstName": "Russel",
+            "middleName": "",
+            "employeeId": "0034",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 11,
+            "lastName": "Harmony",
+            "firstName": "Rebecca",
+            "middleName": "",
+            "employeeId": "0042",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 12,
+            "lastName": "Hope",
+            "firstName": "Cassidy",
+            "middleName": "",
+            "employeeId": "0046",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 35,
+            "lastName": "Hu",
+            "firstName": "Kiyara",
+            "middleName": "",
+            "employeeId": "0239",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 44,
+            "lastName": "Ionescu",
+            "firstName": "Andrei",
+            "middleName": "Vlademir",
+            "employeeId": "0253777",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 41,
+            "lastName": "Ionescu",
+            "firstName": "Andrei",
+            "middleName": "Vlademir",
+            "employeeId": "0251777",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 36,
+            "lastName": "Jackie",
+            "firstName": "Jadine",
+            "middleName": "",
+            "employeeId": "0243",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 45,
+            "lastName": "Jadhav",
+            "firstName": "Jyoti",
+            "middleName": "",
+            "employeeId": "0254",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 43,
+            "lastName": "k",
+            "firstName": "mohan",
+            "middleName": "",
+            "employeeId": null,
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 39,
+            "lastName": "Kohli",
+            "firstName": "Virat",
+            "middleName": "",
+            "employeeId": "0249",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 50,
+            "lastName": "lll",
+            "firstName": "kk",
+            "middleName": "jj",
+            "employeeId": "0259",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 13,
+            "lastName": "Manning",
+            "firstName": "Maggie",
+            "middleName": "",
+            "employeeId": "0050",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 14,
+            "lastName": "Mathews",
+            "firstName": "Jordan",
+            "middleName": "",
+            "employeeId": "0054",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 15,
+            "lastName": "Mathews",
+            "firstName": "Kevin",
+            "middleName": "",
+            "employeeId": "0058",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 16,
+            "lastName": "Morgan",
+            "firstName": "Jasmine",
+            "middleName": "",
+            "employeeId": "0062",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 17,
+            "lastName": "Morris",
+            "firstName": "David",
+            "middleName": "",
+            "employeeId": "0066",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 18,
+            "lastName": "Nolan",
+            "firstName": "Anthony",
+            "middleName": "",
+            "employeeId": "0070",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 19,
+            "lastName": "Patel",
+            "firstName": "Nina",
+            "middleName": "",
+            "employeeId": "0074",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 37,
+            "lastName": "Patil",
+            "firstName": "Rahul",
+            "middleName": "Mulge",
+            "employeeId": "0247",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 20,
+            "lastName": "Peiris",
+            "firstName": "Melan",
+            "middleName": "",
+            "employeeId": "0078",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 21,
+            "lastName": "Root",
+            "firstName": "Joe",
+            "middleName": "",
+            "employeeId": "0083",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 22,
+            "lastName": "Shaheen",
+            "firstName": "Sania",
+            "middleName": "",
+            "employeeId": "0087",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 4,
+            "lastName": "Smith",
+            "firstName": "John",
+            "middleName": "",
+            "employeeId": "0011",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 26,
+            "lastName": "Tencrady",
+            "firstName": "Sara",
+            "middleName": "",
+            "employeeId": "0103",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 1,
+            "lastName": "Test",
+            "firstName": "Orange",
+            "middleName": "",
+            "employeeId": "0001",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 51,
+            "lastName": "v",
+            "firstName": "v",
+            "middleName": "",
+            "employeeId": "fg",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 25,
+            "lastName": "White",
+            "firstName": "Garry",
+            "middleName": "",
+            "employeeId": "0099",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 24,
+            "lastName": "White",
+            "firstName": "Jacqueline",
+            "middleName": "",
+            "employeeId": "0095",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 23,
+            "lastName": "Wright",
+            "firstName": "Luke",
+            "middleName": "",
+            "employeeId": "0091",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        },
+        {
+            "empNumber": 55,
+            "lastName": "xyz",
+            "firstName": "jyothi",
+            "middleName": "abc",
+            "employeeId": "0264",
+            "terminationId": null,
+            "sum": {
+                "hours": 0,
+                "minutes": 0,
+                "label": "0.00"
+            }
+        }
+    ],
+    "meta": {
+        "total": 46
+    },
+    "rels": []
+}

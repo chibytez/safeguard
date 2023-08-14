@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "subunit": {
+                "id": 3,
+                "name": "Engineering"
+            },
+            "count": 11
+        },
+        {
+            "subunit": {
+                "id": 7,
+                "name": "Sales & Marketing"
+            },
+            "count": 6
+        },
+        {
+            "subunit": {
+                "id": 2,
+                "name": "Administration"
+            },
+            "count": 5
+        },
+        {
+            "subunit": {
+                "id": 12,
+                "name": "Finance"
+            },
+            "count": 5
+        },
+        {
+            "subunit": {
+                "id": 13,
+                "name": "Human Resources"
+            },
+            "count": 5
+        },
+        {
+            "subunit": {
+                "id": 10,
+                "name": "Client Services"
+            },
+            "count": 3
+        }
+    ],
+    "meta": {
+        "otherEmployeeCount": 0,
+        "unassignedEmployeeCount": 39,
+        "totalSubunitCount": 6
+    },
+    "rels": []
+}

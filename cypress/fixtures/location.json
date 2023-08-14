@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "location": {
+                "id": 2,
+                "name": "New York Sales Office"
+            },
+            "count": 11
+        },
+        {
+            "location": {
+                "id": 3,
+                "name": "Canadian Regional HQ"
+            },
+            "count": 9
+        },
+        {
+            "location": {
+                "id": 5,
+                "name": "Texas R&D"
+            },
+            "count": 7
+        },
+        {
+            "location": {
+                "id": 1,
+                "name": "HQ - CA, USA"
+            },
+            "count": 6
+        }
+    ],
+    "meta": {
+        "otherEmployeeCount": 0,
+        "unassignedEmployeeCount": 12,
+        "totalLocationCount": 4
+    },
+    "rels": []
+}
